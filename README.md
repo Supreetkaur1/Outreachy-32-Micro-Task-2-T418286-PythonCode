@@ -1,6 +1,10 @@
 # Outreachy-32-Micro-Task-2-T418286-PythonCode
 [T418286](https://phabricator.wikimedia.org/T418286): Addressing the lusophone technological wishlist proposals - Create a Python script to get and print the `status code` of the response of a list of URLs from a `.csv` file.
 
+## Run Code Directly via Google Colab Notebook:
+
+[Google Colab](https://colab.research.google.com/drive/1yqOJzLFDGl7XUOInMXFKnwn7L8fbziqp?usp=sharing)
+
 ##  Overview
 
 This script reads a list of URLs from a CSV file, fetches their HTTP status codes and prints the results in the following format:

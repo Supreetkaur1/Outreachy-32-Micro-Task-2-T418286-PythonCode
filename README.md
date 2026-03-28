@@ -22,6 +22,7 @@ It is designed to be:
 - ✅ Uses `HEAD` request first for efficiency, falls back to `GET`
 - ✅ Retries transient failures (timeouts, connection issues)
 - ✅ Classifies errors into meaningful categories:
+```
   - TIMEOUT
   - CONNECTION_ERROR
   - DNS_ERROR
@@ -30,6 +31,7 @@ It is designed to be:
   - INVALID_URL
   - REQUEST_FAILED
   - UNKNOWN_ERROR
+```
 - ✅ Processes URLs concurrently using threads
 
 ---
@@ -39,7 +41,7 @@ url-status-checker/
 │
 ├── README.md
 ├── Task2_mycode.py
-├── Task 2 - Intern.csv
+└──Task 2 - Intern.csv
 ```
 ---
 

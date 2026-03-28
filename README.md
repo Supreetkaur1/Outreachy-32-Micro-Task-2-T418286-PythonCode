@@ -1,19 +1,16 @@
 # Outreachy-32-Micro-Task-2-T418286-PythonCode
-Outreachy 32: Addressing the lusophone technological wishlist proposals - Create a Python script to get and print the `status code` of the response of a list of URLs from a `.csv` file.
+[T418286](https://phabricator.wikimedia.org/T418286): Addressing the lusophone technological wishlist proposals - Create a Python script to get and print the `status code` of the response of a list of URLs from a `.csv` file.
 
-write this entire thing in markdown:
+##  Overview
 
-📄 README.md
-# URL Status Code Checker
-
-## 📌 Overview
-
-This script reads a list of URLs from a CSV file, fetches their HTTP status codes, and prints the results along with a summary.
+This script reads a list of URLs from a CSV file, fetches their HTTP status codes and prints the results in the following format:
+A. (STATUS CODE) URL
+B. e.g. (200) https://www.nytimes.com/1999/07/04/sports/women-s-world-cup-sissi-of-brazil-has-right-stuff-with-left-foot.html.
 
 It is designed to be:
 - Efficient (uses multithreading)
 - Robust (handles various network errors)
-- User-friendly (clear output and summary)
+- User-friendly (clear output)
 
 ---
 

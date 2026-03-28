@@ -4,9 +4,10 @@
 ##  Overview
 
 This script reads a list of URLs from a CSV file, fetches their HTTP status codes and prints the results in the following format:
+```
 A. (STATUS CODE) URL
 B. e.g. (200) https://www.nytimes.com/1999/07/04/sports/women-s-world-cup-sissi-of-brazil-has-right-stuff-with-left-foot.html.
-
+```
 It is designed to be:
 - Efficient (uses multithreading)
 - Robust (handles various network errors)
@@ -54,6 +55,7 @@ urls
 
 
 urls
+
 https://google.com
 
 https://invalid-url
@@ -75,10 +77,10 @@ Example:
 python script.py data.csv
 ```
 ☁️ Google Colab
-
+```
 Run the script
 Upload your CSV file when prompted
-
+```
 🖥️ Sample Output
 ```bash
 (200) https://google.com
@@ -109,9 +111,17 @@ requests
 
 pip install requests
 
+## Submission Details
 
+* Submission sent via email:
+
+  ```
+  Subject: [Outreachy] Supreetkaur0602
+  ```
+* Contribution registered on the Outreachy platform
 
 ---
 
-If you want next step:
-I can help you write a **perfect PR description + cover message** (this often matters more than the
+## Acknowledgment
+
+Thank you for reviewing my submission. I look forward to your feedback and the opportunity to contribute further.
